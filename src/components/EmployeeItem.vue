@@ -1,8 +1,16 @@
 <template>
     <div>
-        <p>{{employee.employee_name}}</p>
-        <span>{{employee.employee_age}}</span><br>
-        <span>{{employee.employee_salary}}</span>
+        <v-container>
+            <v-row>
+                <p>{{employee.employee_name}}</p>
+            </v-row>
+            <v-row>
+                <p>{{employee.employee_age}}</p>
+            </v-row>
+            <v-row>
+                <p>{{employee.employee_salary}}</p>
+            </v-row>
+        </v-container>
 
     </div>
 </template>
